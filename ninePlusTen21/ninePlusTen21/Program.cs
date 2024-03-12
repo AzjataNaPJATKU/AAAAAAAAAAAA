@@ -11,3 +11,7 @@ static double GetAverage(int[] numbers)
     }
     return sum / numbers.Length;
 }
+
+int[] numb = {1,2,3,4};
+double average = GetAverage(numb);
+Console.WriteLine(average);

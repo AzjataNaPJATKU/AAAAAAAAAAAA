@@ -4,7 +4,7 @@ Console.WriteLine("Hello, World!");
 
 static double GetAverage(int[] numbers)
 {
-    double sum = 0;
+    double suma = 0;
     for (int i = 0; i < numbers.Length; i++)
     {
         sum = sum + numbers[i];

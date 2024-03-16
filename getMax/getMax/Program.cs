@@ -2,7 +2,7 @@
 
 static int GetMax(int[] numbers)
 {
-    int maks = numbers[0];
+    int maksum = numbers[0];
     for (int i = 1; i < numbers.Length; i++)
     {
         if (numbers[i]>maks)
